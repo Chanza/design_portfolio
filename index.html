@@ -1,28 +1,41 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Chanza Portfolio</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Portfolio</title>
+    <style>
+        /* Set up body background and basic styling */
+        body {
+            background-color: #ededed;
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        /* Center the images and ensure they are responsive */
+        .image-container {
+            text-align: center;
+            margin: 20px 0;
+        }
+
+        .image-container img {
+            width: 100%; /* Make the images responsive */
+            height: auto; /* Keep the aspect ratio */
+            max-width: 820px; /* Limit the maximum width */
+
+        }
+    </style>
 </head>
-<body bgcolor="#ededed">
-	<center>
-	<br>
+<body>
 
-			<td><img src="portfolio1.jpg" height="520px" width="820px">
-			<br>
-			<td><img src="portfolio2.jpg" height="520px" width="820px">
-			<br>
-			<td><img src="portfolio3.jpg" height="520px" width="820px">
-			<br>
-			<td><img src="portfolio4.jpg" height="520px" width="820px">
-			<br>
-			<td><img src="portfolio5.jpg" height="520px" width="820px">
-			<br>
-			<td><img src="portfolio6.jpg" height="520px" width="820px">
-			<br>
-
-	</center>
+    <div class="image-container">
+        <img src="portfolio1.jpg" alt="Portfolio Image 1"><br>
+        <img src="portfolio2.jpg" alt="Portfolio Image 2"><br>
+        <img src="portfolio3.jpg" alt="Portfolio Image 3"><br>
+        <img src="portfolio4.jpg" alt="Portfolio Image 4"><br>
+        <img src="portfolio5.jpg" alt="Portfolio Image 5"><br>
+        <img src="portfolio6.jpg" alt="Portfolio Image 6"><br>
+    </div>
 
 </body>
 </html>
